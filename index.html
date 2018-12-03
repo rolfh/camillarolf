@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Camilla & Rolf gifter seg ❤</title>
+		<meta name="description" content="❤❤❤" />
+		<meta
+			description="Camilla og Rolf arrangerer bryllupsfest i Banksalen den 8. april 2017. "
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Petit+Formal+Script"
+			rel="stylesheet"
+		/>
+
+		<link
+			href="https://fonts.googleapis.com/css?family=Sahitya"
+			rel="stylesheet"
+		/>
+
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat"
+			rel="stylesheet"
+		/>
+
+		<link
+			href="https://fonts.googleapis.com/css?family=Pinyon+Script"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="section-header">
+			<img src="img/logo.svg" id="logo" alt="Camilla ❤ Rolf" />
+			<button id="downArrow"><span></span></button>
+			<a id="credit-edwin" href="http://edwinsutphen.com/" target="_blank"
+				><span>Foto:</span> Edwin Sutphen</a
+			>
+		</div>
+
+		<div id="intro">
+			<div class="container">
+				<h1>Vi gifter oss 8. april</h1>
+				<h2>
+					Vielsen foregår i Frimurerlosjen kl 12 i Rokokkosalen.<br />Festen
+					starter kl 16 i Banksalen, dørene åpnes kl 15.
+				</h2>
+			</div>
+		</div>
+
+		<div class="small-container">
+			<div id="formStart">
+				<h3 class="pre" style="text-align: center;">
+					Svar utbedes 8. mars
+				</h3>
+				<h3 class="post" style="text-align: center;">
+					...Nå er det for seint (bryllupet var i 2017)
+				</h3>
+				<p style="text-align: center;">
+					Svar med skjemaet under, på e‑post:
+					<a href="mailto:camilla@camilla.no">camilla@camilla.no</a>
+					eller på telefon: <a href="tel:55566777">555 66 777</a>
+				</p>
+
+				<div class="formbuilder ">
+					<label>
+						<span class="circle"></span>
+						<input checked type="radio" name="join-radio" />
+						<div class="hole"></div>
+						Ja, jeg er med!
+					</label>
+					<label>
+						<span class="circle"></span>
+						<input type="radio" name="join-radio" />
+						<div class="hole"></div>
+						Nei, jeg kan ikke være med
+					</label>
+					<div class="form-group required">
+						<label>Navn</label>
+						<input type="text" class="form-control" />
+					</div>
+					<button id="submit-now" class="btn submit">Send</button>
+				</div>
+			</div>
+
+			<h3>Vielse</h3>
+			<p>
+				Vi ønsker velkommen til vielse kl 12 i Frimurerlogen i Kongens
+				gate 3. Vielsen er i regi av Human-Etisk Forbund. I tiden mellom
+				vielsen og festen er det mulig å besøke det lokale
+				<a
+					href="https://www.facebook.com/kunsthalltrondheim/"
+					target="_blank"
+					>kunstgalleriet</a
+				>.
+			</p>
+			<h3>Fest</h3>
+			<p>
+				Festen avholdes i Banksalen i Kongens gate 4. Ved ankomst vil
+				velkomstdrikke og snacks være tilgjengelig. Middagen starter
+				klokken 16, dørene åpnes kl 15. Det vil bli servert en
+				treretters middag med tilhørende drikke. Det blir også servert
+				kake og kaffe avec. Skulle det være behov for mer alkohol i
+				løpet av festen, har Banksalen bar med skjenkebevilgning.
+			</p>
+			<h3>Musikk</h3>
+			<p>
+				Malt spiller opp til fest, du kan høre de
+				<a
+					href="https://play.spotify.com/artist/5U7RpbMophkhYnrltbd7xC"
+					target="_blank"
+					>her</a
+				>. Det vil også bli musikk under vielsen.
+			</p>
+			<h3>Toastmaster</h3>
+			<p>
+				Fredrik Tømmerdal, brudens bror, er kveldens toastmaster. Ta
+				kontakt med Fredrik så tidlig som mulig ved ønske om avsatt tid.
+				Tlf: <a href="tel:55566777">555 66 777</a>, e-post:
+				<a href="mailto:fredrik@fredrik.no">fredrik@fredrik.no</a>.
+			</p>
+			<h3>Antrekk</h3>
+			<p>Pent antrekk.</p>
+			<h3>Allergi</h3>
+			<p>Gi beskjed hvis du har allergi.</p>
+			<h3>Forlovere</h3>
+			<p>Kine Tømmerdal og Fredrik Øfsteng er parets forlovere.</p>
+			<h3>Gaveønsker</h3>
+			<p>
+				Gavekort på CI Pedersen, Ting eller Tips. Penger til planlagte
+				husprosjekt. Vi ønsker oss også bildekunst.
+			</p>
+			<h3>Meny</h3>
+			<p>
+				Til forrett serverer vi råmarinert frøyalaks med ørretrogn,
+				sjalottløk og wasabimajones. Til hovedrett får dere oksefilet
+				med bakte rotgrønnsaker og rødvinsaus. Desserten består av en
+				sjokoladeganasj på mandelbunn med hvit og mørk sjokolade, med
+				ristet mandelflarn og bærkompott.
+			</p>
+		</div>
+
+		<div class="section-countdown">
+			<div class="container">
+				<p><img src="img/clock.png" class="clock" alt="klokke" /></p>
+				<div id="countDownTimer">
+					<span>
+						<div class="number">{{ time.days }}</div>
+						<div class="desc">dager</div>
+					</span>
+					<span>
+						<div class="number">{{ time.hours }}</div>
+						<div class="desc">timer</div>
+					</span>
+					<span>
+						<div class="number">{{ time.hours }}</div>
+						<div class="desc">minutter</div>
+					</span>
+					<span>
+						<div class="number">{{ time.seconds }}</div>
+						<div class="desc">sekunder</div>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<script
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCprbBVLoBG02dJYvL5ft1jlDsazWtqAs&callback=initMap"
+			async
+			defer
+		></script>
+		<script src="map-styling.js"></script>
+		<script src="map-script.js"></script>
+
+		<div class="section-map"><div id="google-map"></div></div>
+
+		<script src="https://vuejs.org/js/vue.js"></script>
+		<script src="script.js"></script>
+
+		<div class="feedback" style="display: none;">
+			<span class="xxl">xxl</span> <span class="xl">xl</span>
+			<span class="l">l</span> <span class="m">m</span>
+			<span class="s">s</span> <span class="xs">xs</span>
+		</div>
+	</body>
+</html>
